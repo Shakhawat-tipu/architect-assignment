@@ -190,3 +190,21 @@ footer{
     padding: 10px 10px;
     background-color: #FFF4E7;
 }
+/* Device responsive */
+@media screen and (max-width: 576px) {
+    .nav-page{
+        flex-direction: column;
+    }
+    .header-banner{
+        width: 100%;
+    }
+    .quick-feature, .quick-images, .love-feature  {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .sponsor-groups{
+        flex-direction: column;
+    }
+    
+}
