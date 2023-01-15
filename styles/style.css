@@ -1,0 +1,54 @@
+/* Global CSS */
+*{
+    font-family: 'Work Sans', sans-serif;
+
+}
+/* Header section styles */
+.headere-section{
+    background-color: rgba(250, 156, 48, 0.547);
+}
+.nav-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-menu a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.header-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-body-info{
+    text-align: center;
+}
+.info-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+}
+.info-details{
+    margin-top: ;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.primary-button{
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+}
+.header-banner{
+    width: 1440px;
+    height: 700px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.header-banner img{
+    width: 100%;
+}
